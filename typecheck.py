@@ -9,6 +9,7 @@ from typing import List, Tuple
 from add_reveal_locals import process_reveal_locals
 
 
+
 def get_src_file_list(dir: str) -> List[str]:
     """ Get all py files from the given directories
     """
