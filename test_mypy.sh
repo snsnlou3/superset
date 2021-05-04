@@ -38,6 +38,7 @@ else
     echo "mypy not supported on this version"
     exit 1
 fi
+
 pip install astunparse
 python3 typecheck.py
 zip -r mypy_test_cache.zip mypy_test_cache/
